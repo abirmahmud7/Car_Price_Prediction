@@ -43,10 +43,6 @@ for col in cols:
   freq=data[col].value_counts(normalize=True)
   data[col]=data[col].map(freq)
 
-# from category_encoders import CountEncoder
-# encoder=CountEncoder(cols=["Make","Model"])
-# data=encoder.fit_transform(data)
-
 data.head()
 
 y=data["MSRP"]
