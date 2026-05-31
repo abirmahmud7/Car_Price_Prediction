@@ -12,7 +12,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 
-data=pd.read_csv("/content/data.csv")
+data=pd.read_csv("data.csv")
 
 data
 
