@@ -26,8 +26,6 @@ data.duplicated().sum()
 
 data.drop_duplicates(inplace=True)
 
-data
-
 data.isnull().sum()
 
 data.dropna(subset=["Engine HP","Engine Cylinders",],inplace=True)
